@@ -23,7 +23,7 @@ function setup() {
 
 
 
-  ghost= createSprite(300,210,40,40)
+  ghost= createSprite(300,210,30,30)
   ghost.addImage("ghost",ghostImg)
   ghost.scale= 0.4
 
