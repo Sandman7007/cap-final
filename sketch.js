@@ -78,7 +78,7 @@ function draw() {
       tower.y = 300
     }
 
-    if(keyDown("space")){
+    if(keyReleased("space")){
       ghost.velocityY= -3
       score=score+1
     }
