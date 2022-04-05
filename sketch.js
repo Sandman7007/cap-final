@@ -80,7 +80,7 @@ function draw() {
 
     if(keyDown("space")){
       ghost.velocityY= -3
-      score=score+0.5
+      score=score+1
     }
     ghost.velocityY=ghost.velocityY+0.5
 
